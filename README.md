@@ -5,6 +5,8 @@ Para rodar o código, primeiro inicie o `index.html` com localhost. Feito isso, 
 ---
 
 ## Requisitos para rodar
+De preferência, tenha apenas a IDE e o navegador abertos em primeiro plano.
+
 Python:
   - time (default)
   - pyautogui (precisa instalar, caso não tenha)
