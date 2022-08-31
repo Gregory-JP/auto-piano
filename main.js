@@ -1,14 +1,11 @@
-// get all keys
 const keys = document.querySelectorAll(".key")
 
 function playNote(event) {
   
   let audioKeyCode = getKeyCode(event);
 
-  // typed or pressed key
   const key = document.querySelector(`.key[data-key="${audioKeyCode}"]`)
 
-  // if key exists
   const cantFoundAnyKey = !key
 
   if(cantFoundAnyKey) {
@@ -48,13 +45,11 @@ function removePlayingClass(event) {
 }
 
 function registerEvents() {
-  // click with mouse
   keys.forEach( function(key) {
     key.addEventListener("click", playNote)
     key.addEventListener("transitionend", removePlayingClass)
   })
 
-  // keyboard type
   window.addEventListener("keydown", playNote)
 }
 
