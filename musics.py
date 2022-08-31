@@ -39,7 +39,6 @@ def nonaSinfonia():
         return True
 
 
-
 def choramAsRosas():
         notas = [85, 89, 84, 79, 89,
                 89, 85, 74, 74, 74, 74, 80, 79, 74, 74, 85, 85,
