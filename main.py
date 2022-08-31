@@ -7,7 +7,7 @@ while True:
                 3 - Brasilia Amarela
                 4 - Hino Nacional
                 5 - Nona Sinfonia
-                7 - Asa Branca
+                6 - Asa Branca
                 7 - Sair
         """)
 
